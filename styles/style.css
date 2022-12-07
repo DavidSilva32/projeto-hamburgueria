@@ -67,7 +67,7 @@ section.normal {
 }
 
 section.imagem {
-    background: black url('../imagens/logo.jpg') no-repeat right center fixed;
+    background: black url('../imagens/foto001.jpg') no-repeat right center fixed;
     background-size: cover;
 
     padding-left: 5vh;

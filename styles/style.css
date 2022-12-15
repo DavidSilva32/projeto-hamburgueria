@@ -85,7 +85,18 @@ section.normal {
     display: inline-block;
 }
 
-section.imagem {
+section.normal > a {
+    background-color: black;
+    color: var(--cor04);
+
+    padding: 8px;
+    border-radius: 5px;
+
+    text-decoration: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+section#imagem {
     background: black url('../imagens/foto001.jpg') no-repeat right center fixed;
     background-size: cover;
 
@@ -93,13 +104,14 @@ section.imagem {
     padding-left: 2vw;
 }
 
-section.imagem > p {
+section#imagem > p {
     background-color: rgba(0, 0, 0, 0.192);
     color: white;
 
     width: 40vw;
     padding: 10px;    
 }
+
 
 footer {
     background-color: #000000;

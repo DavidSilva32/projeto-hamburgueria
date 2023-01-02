@@ -19,7 +19,6 @@
 body {
     background-color: var(--cor01);
     font: normal 1.2em Arial, Helvetica, sans-serif;
-
     text-align: justify;
 }
 
@@ -89,6 +88,8 @@ main > h3 {
     font-family: var(--font-title);
     background-image: linear-gradient(to right, var(--cor04), transparent);
     color: var(--cor01);
+
+    padding: 5px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
 }
 

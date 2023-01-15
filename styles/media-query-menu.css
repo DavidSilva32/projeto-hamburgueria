@@ -55,6 +55,10 @@
         list-style-type: none;
     }
 
+    nav > ul {
+        margin-left: 10px;
+    }
+
     nav li {
         display: inline-block;
     }

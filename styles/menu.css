@@ -57,6 +57,10 @@ nav {
     display: none;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
 nav a {
     background-color: var(--cor04);
     color: black;
@@ -79,7 +83,7 @@ main {
     color: black;
 
     padding: 10px;
-    width: 90vw;
+    width: 85vw;
     margin: auto;
     margin-top: 3vh;
     margin-bottom: 3vh;
